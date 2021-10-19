@@ -1,6 +1,9 @@
 /*////////// **************** HEADER + FOOTER **************** //////////*/
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf') format('truetype'); 
+}  
 
 /*////////// Apply everywhere //////////*/
 
@@ -56,7 +59,7 @@
 
 /* Style the topnav links */
 .topnav a {
-  font-family : Open Sans ;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: bolder;
   color: black;
   text-align: center;
@@ -117,7 +120,7 @@
   position : absolute;
   display : none;
   flex-direction: column;
-  padding-top : 11.5px;
+  padding-top : 21.5px;  
 }
 
 .dropdown-content a{
