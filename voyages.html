@@ -20,6 +20,8 @@
 
 <body>
 
+  <!-- //___________________________ HEADER ___________________________// !-->
+
   <header>
     <div class="header_container">
       <div class="logo_container">
@@ -27,29 +29,55 @@
       </div>
       <div class="nav_container">
         <div class="topnav" id="myTopnav">
-          <a href="index.html">Accueil</a>
-          <a href="l'atelier.html">Sorties</a>
-          <a href="services.html">Musées</a>
-          <a href="creations.html">Balades</a>
-          <a href="contact.html">Contact</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+          <div>
+            <a class="menu" href="voyages.html">Accueil</a>
+            <a class="menu" href="voyages/marseille1.html">Histoire</a>
+          </div>
+
+          <div class="dropdown">
+            <a href="voyages/marseille2.html">Sorties <i class="fa fa-angle-down"></i></a>
+            <div class="dropdown-content drop">
+              <a href="services.html">Parcs</a>
+              <a href="services.html">Randonnées</a>
+              <a href="services.html">Plages</a>
+            </div>
+          </div>
+
+          <div>
+            <a class="menu" href="voyages/marseille3.html">Musées</a>
+          </div>
+          <div>
+            <a class="menu" href="voyages/marseille4.html">Contact</a>
+          </div>
+          <div> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a> </div>
         </div>
       </div>
   </header>
 
-  <main>
     <div id="ham" class="ham_container">
       <div class="ham">
-        <a href="index.html">Accueil</a>
-        <a href="l'atelier.html">Sorties</a>
-        <a href="services.html">Musées</a>
-        <a href="creations.html">Balades</a>
-        <a href="contact.html">Contact</a>
+        <a href="voyages.html">Accueil</a>
+        <a href="voyages/marseille1.html">Histoire</a>
+        <a href="voyages/marseille2.html">Sorties</a>
+        <div class="submenu">
+          <a href="services.html">&nbsp Parcs</a>
+          <a href="services.html">&nbsp Randonnées</a>
+          <a href="services.html">&nbsp Plages</a>
+        </div>
+        <a href="voyages/marseille3.html">Musées</a>
+        <a href="voyages/marseille4.html">Contact</a>
       </div>
     </div>
-    <video autoplay muted loop>
-      <source src="content/video.mp4#t=10" type="video/mp4" />
-    </video>
+
+  <!-- //___________________________ END ___________________________// !-->
+
+  <main>
+
+    <div class="video-container">
+      <video autoplay muted loop>
+        <source src="content/video.mp4#t=1" type="video/mp4" />
+      </video>
+    </div>
     <div class="background"></div>
 
     <div class="info-container">
@@ -61,20 +89,21 @@
 
       </div>
     </div>
-
-
   </main>
+
+  <!-- //___________________________ FOOTER ___________________________// !-->
+
   <footer>
     <div class="footer_container">
       <div class="compagny_name">
         <p class="atelier_ponz">MARSEILLE</p>
       </div>
       <div class="sitemap">
-        <a href="index.html">Accueil</a>
-        <a href="l'atelier.html">Sorties</a>
-        <a href="services.html">Musées</a>
-        <a href="creations.html">Balades</a>
-        <a href="contact.html">Contact</a>
+        <a href="voyages.html">Accueil</a>
+        <a href="voyages/marseille1.html">Histoire</a>
+        <a href="voyages/marseille2.html">Sorties</a>
+        <a href="voyages/marseille3.html">Musées</a>
+        <a href="voyages/marseille4.html">Contact</a>
       </div>
       <div class="social">
         <a href="#" class="fa fa-facebook"></a>
@@ -84,8 +113,10 @@
 
   </footer>
 
+  <!-- //___________________________ END ___________________________// !-->
+
   <div class="copyright">
-    <p>Copyright 2021 - Marseille - Tous droits réservés</p>
+    <p>Copyright 2021 - Ville de Marseille - Tous droits réservés</p>
   </div>
 
 </body>
