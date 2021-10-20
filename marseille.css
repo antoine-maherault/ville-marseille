@@ -255,8 +255,9 @@ font-size: 25px;}
 /*///////// Style video /////////*/
 
 .video-container {
-  height: 800px;
+  height: 600px;
   width:  100%;
+  z-index: -1;
 }
 
 .video-container video {
@@ -413,4 +414,35 @@ footer {
   font-size : 12px;
   padding-top : 10px;
   margin-bottom : 5px;
+}
+
+/*////////// **************** ACCUEIL **************** //////////*/
+
+/* Scroll Arrow */
+
+.square {
+  height : 50px;
+  width : 50px;
+  z-index:2;
+  margin-left : 50%;
+  animation: blinker 2s linear infinite;
+  bottom : 0;
+  position: fixed;
+  margin-bottom :20px; 
+}
+
+.fa-angle-double-down{
+  color : white;
+  font-size : 40px;
+  margin-left:-10px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+html{
+  scroll-behavior : smooth;
 }
