@@ -215,7 +215,7 @@ font-size: 25px;
 
 .background{
   background-image: url("https://en.geneanet.org/public/img/gallery/pictures/cartes_postales/f9/28957/large.jpg");
-  background-size : 1450px;
+  background-size : 100%;
   height: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
