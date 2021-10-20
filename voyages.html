@@ -16,6 +16,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/alex-brush" type="text/css" />
   <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+
+  <script>
+    function myFunction2() { 
+      document.getElementById("icon_arrow").style.display="none"; 
+    }
+    </script>
+
 </head>
 
 <body>
@@ -49,7 +56,7 @@
           <div>
             <a class="menu" href="voyages/marseille4.html">Contact</a>
           </div>
-          <div> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a> </div>
+          <div> <a href="javascript:void(0);" onclick="myFunction()"> <i class="fa fa-bars"></i></a> </div>
         </div>
       </div>
   </header>
@@ -72,7 +79,7 @@
   <!-- //___________________________ END ___________________________// !-->
 
   <main>
-    <div class= "square"><i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i>
+    <div id="icon_arrow" class= "square"><a href="#shape1" onclick="myFunction2()"><i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i></a>
     </div>
 
     <div class="video-container">
