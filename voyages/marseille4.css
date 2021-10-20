@@ -484,7 +484,10 @@ input[type=submit]:hover {
   height : 400px;
   width : 100%;
   background-color : rgb(243, 234, 234);
-  margin-top: 10px;
   margin-bottom:5px;
   font-family : montserrat;
+}
+
+.map_contact{
+  margin-top : 15px;
 }
