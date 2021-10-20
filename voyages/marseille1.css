@@ -215,7 +215,7 @@ font-size: 25px;
 
 .background{
   background-image: url("https://en.geneanet.org/public/img/gallery/pictures/cartes_postales/f9/28957/large.jpg");
-  background-size : 100%;
+  background-size : 1450px;
   height: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -426,6 +426,8 @@ footer {
 	display:  flex;
 	flex-direction: column;
 	align-items:  center;
+	margin-top: 20px;
+	background-color: rgb(243, 234, 234);
 }
 
 .p_article{
@@ -453,7 +455,7 @@ footer {
 .p_txt_origin{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .p_txt_origin_left{
@@ -466,10 +468,17 @@ footer {
 .p_txt_origin_right img{
 	width:  500px;
 	height: 300px;
-	padding: ;
+	padding: 10px;
 }
 
+.p_txt{
+	font-family: montserrat;
+}
 
+.p_txt h1, h2, h3{
+	font-family: Open sans;
+	padding-bottom: 10px;
+}
 /* slider 10 photos */ 
 
 .p_slider_window {
