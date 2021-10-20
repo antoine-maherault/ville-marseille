@@ -403,3 +403,75 @@ footer {
 }
 
 /*////////// **************** CONTACT **************** //////////*/
+
+
+.info_container{
+  display : flex;
+  flex-direction : row;
+}
+.contact_info_container{
+  height : 400px;
+  width : 1200px;
+  /* background-color : blue; */
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_form_container{
+  height : 400px;
+  width : 100%;
+  padding: 20px;
+
+}
+
+.contact_info{
+  background-color : white;
+  height : 300px;
+  width : 400px;
+  display : flex;
+  flex-direction : column;
+  justify-content: center;
+  text-align: center;
+  line-height: 22px;
+}
+
+/* Contact_form */
+
+ 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#shape6{
+  height : 400px;
+  width : 100%;
+  background-color : rgb(243, 234, 234);
+  margin-top: 10px;
+  margin-bottom:5px;
+  font-family : montserrat;
+}
