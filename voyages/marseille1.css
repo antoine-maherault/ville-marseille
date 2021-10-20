@@ -431,13 +431,13 @@ footer {
 }
 
 .p_article{
-	background-color: gray;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	width: 70%;
 	margin:  10px;
 	padding:  10px;
+	box-shadow: rgb(3 44 78 / 25%) 0px 5px 10px -5px, rgb(3 44 78 / 30%) 0px 5px 7px -5px;
 }
 
 .p_article:target .p_txt_main_history_info{
@@ -461,7 +461,7 @@ footer {
 .p_txt_origin_left{
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 50%;
 	padding:  40px;
 }
 
@@ -471,13 +471,35 @@ footer {
 	padding: 10px;
 }
 
-.p_txt{
+.p_txt, .p_txt_main_history_info{
 	font-family: montserrat;
 }
 
+.p_txt_main_history_info{
+	width: 80%;
+}
 .p_txt h1, h2, h3{
 	font-family: Open sans;
 	padding-bottom: 10px;
+	color: #032C4E;
+	font-size: 25px;
+}
+
+.p_txt h1{
+	font-size: 30px;
+}
+
+.p_txt_main_history_btn{
+	text-decoration: none;
+	color: black;
+	font-family: montserrat;
+	padding: 10px;
+}
+
+.p_txt_main_history_btn:hover{
+	text-decoration: underline;
+	color: #38B6FF;
+	transition: 0.5s;
 }
 /* slider 10 photos */ 
 
