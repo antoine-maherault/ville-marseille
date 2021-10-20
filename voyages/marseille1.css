@@ -416,10 +416,6 @@ footer {
 
 /*////////// **************** HISTOIRE **************** //////////*/
 
-.p_main{
-	margin-bottom: 17%;
-}
-
 /* main content page */
 
 .p_main_content{
@@ -505,7 +501,9 @@ footer {
 
 .p_slider_window {
 	position: relative;
-	width: 70%;;
+	width: 70%;
+	margin-top: 30px;
+	margin-bottom: 320px;
 }
 
 .p_slider .p_slider_b img {
@@ -526,18 +524,18 @@ footer {
 	10% {left: -4%; }
 	20% {left: -104%; }
 	30% {left: -104%; }
-	40% {left: -204%; }
-	50% {left: -204%; }
-	60% {left: -304%; }
-	70% {left: -304%; }
-	80% {left: -404%; }
-	90% {left: -404%; }
+	40% {left: -208%; }
+	50% {left: -208%; }
+	60% {left: -312%; }
+	70% {left: -312%; }
+	80% {left: -416%; }
+	90% {left: -416%; }
 	100% {left: 0%; }
 }
 
 .p_slider_b {
 	position: relative;
-	width: 500%;
+	width: 520%;
 	animation-name: slider;
 	animation-iteration-count: infinite;
 	animation-duration: 15s;
@@ -547,5 +545,10 @@ footer {
 	position: absolute;
 	z-index: 1;
 	left: 30px;
-	background-color: green;
+	top: -10px;
+	background-color: rgb(243, 234, 234);
+	padding: 20px;
+	width: 40%;
+	box-shadow: rgb(3 44 78 / 25%) 5px 5px 10px, rgb(3 44 78 / 30%) 0px 5px 7px -5px;
+	font-family: montserrat;
 }
