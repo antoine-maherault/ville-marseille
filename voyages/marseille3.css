@@ -215,8 +215,13 @@ font-size: 25px;}
 /*////////// Style the background //////////*/
 
 .background{
+<<<<<<< Updated upstream
   background-image: url("../content/background.jpeg");
   background-size : 1450px;
+=======
+  background-image: url("https://www.familiscope.fr/assets/posts/15000/15013-museum-d-histoire-naturelle-de-marseille.jpg");
+  background-size : 100%;
+>>>>>>> Stashed changes
   height: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -415,4 +420,110 @@ footer {
   margin-bottom : 5px;
 }
 
-/*////////// **************** SORTIES **************** //////////*/
+/*////////// **************** MUSEES **************** //////////*/
+
+.p_carousel{
+	position: relative;
+}
+
+.p_carousel_inside{
+	position:relative;
+	overflow:hidden;
+	width: 100%;
+}
+
+.p_carousel_open:checked + .p_carousel_item {
+    position: static;
+    opacity: 100;
+}
+
+.p_carousel_item {
+    position: absolute;
+	margin-top: 20px;
+	padding-bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.6s ease-out;
+	background-color: rgb(243, 234, 234);
+}
+
+.p_carousel_item img {
+    display: block;
+	max-width: 1920px;
+	max-height: 960px;
+}
+	
+.p_carousel_control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+}
+
+.p_carousel_control.prev {
+    left: 2%;
+}
+
+.p_carousel_control.next {
+    right: 2%;
+}
+
+.p_carousel_control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#p_carousel_1:checked ~ .control-1,
+#p_carousel_2:checked ~ .control-2,
+#p_carousel_3:checked ~ .control-3,
+#p_carousel_4:checked ~ .control-4,
+#p_carousel_5:checked ~ .control-5 {
+    display: block;
+}
+
+.p_carousel_ind {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.p_carousel_ind li {
+    display: inline-block;
+    margin: 0 5px;
+	
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#p_carousel_1:checked ~ .p_control_1 ~ .p_carousel_indicators li:nth-child(1) .carousel-bullet,
+#p_carousel_2:checked ~ .p_control_2 ~ .p_carousel_indicators li:nth-child(2) .carousel-bullet,
+#p_carousel_3:checked ~ .p_control_3 ~ .p_carousel_indicators li:nth-child(3) .carousel-bullet,
+#p_carousel_4:checked ~ .p_control_4 ~ .p_carousel_indicators li:nth-child(4) .carousel-bullet,
+#p_carousel_5:checked ~ .p_control_5 ~ .p_carousel_indicators li:nth-child(5) .carousel-bullet {
+    color: #428bca;
+}
