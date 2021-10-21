@@ -430,19 +430,26 @@ footer {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	background-color: #ecdfdf;
 	width: 70%;
 	margin:  10px;
 	padding:  10px;
 	box-shadow: rgb(3 44 78 / 25%) 0px 5px 10px -5px, rgb(3 44 78 / 30%) 0px 5px 7px -5px;
 }
 
-.p_article:target .p_txt_main_history_info{
+.p_article:target .p_txt_main_history_info, .p_txt_main_history_img{
 	max-height: 300px;
 }
 
 .p_txt_main_history_info{
 	max-height: 0em;
 	transition:  0.5s linear 0.4s;
+	overflow: hidden;
+}
+
+.p_txt_main_history_img{
+	width: 300px;
+	max-height: 0em;
 	overflow: hidden;
 }
 
@@ -467,7 +474,7 @@ footer {
 	padding: 10px;
 }
 
-.p_txt, .p_txt_main_history_info{
+.p_txt, .p_txt_main_history_info, .p_article{
 	font-family: montserrat;
 }
 
@@ -514,8 +521,7 @@ footer {
 
 .p_slider {
 	position: absolute;
-	top: 30;
-	left:0;
+	left: 20%;
 	overflow: hidden ;
 }
   
@@ -547,6 +553,8 @@ footer {
 	left: 30px;
 	top: -10px;
 	background-color: rgb(243, 234, 234);
+	left: -18%;
+	background-color: #ecdfdf;
 	padding: 20px;
 	width: 40%;
 	box-shadow: rgb(3 44 78 / 25%) 5px 5px 10px, rgb(3 44 78 / 30%) 0px 5px 7px -5px;
