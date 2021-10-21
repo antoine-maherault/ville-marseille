@@ -17,8 +17,56 @@ myID = document.getElementById("icon_arrow");
 
 var myScrollFunc = function () {
   var y = window.scrollY;
-  if (y >= 800) {
-    document.getElementById("icon_arrow").style.display = "none";
+  if (y >= 700) {
+    document.getElementById("icon_arrow").style.display = "none";    
+    
+    document.getElementById("r1").addEventListener("mouseover", mouseOver);
+     function mouseOver() {
+    document.getElementById("r1").style.opacity = "1";
+    document.getElementById("r2").style.opacity = "0.5";
+    document.getElementById("r3").style.opacity = "0.5";
+    document.getElementById("r4").style.opacity = "0.5";    
+    document.getElementById("r4").style.opacity = "0.5";    
+    document.getElementById("l1").style.display = "flex";
+    document.getElementById("l2").style.display = "none";  
+    document.getElementById("l3").style.display = "none";    
+    document.getElementById("l4").style.display = "none";    
+    }
+
+    document.getElementById("r2").addEventListener("mouseover", mouseOver2);
+    function mouseOver2() {
+    document.getElementById("r1").style.opacity = "0.5";
+    document.getElementById("r2").style.opacity = "1";
+    document.getElementById("r3").style.opacity = "0;5";
+    document.getElementById("r4").style.opacity = "0.5";  
+    document.getElementById("l1").style.display = "none";
+    document.getElementById("l2").style.display = "flex";  
+    document.getElementById("l3").style.display = "none";    
+    document.getElementById("l4").style.display = "none";    
+   }
+
+    document.getElementById("r3").addEventListener("mouseover", mouseOver3);
+    function mouseOver3() {
+    document.getElementById("r1").style.opacity = "0.5";
+    document.getElementById("r2").style.opacity = "0.5";
+    document.getElementById("r3").style.opacity = "1";
+    document.getElementById("r4").style.opacity = "0.5";
+    document.getElementById("l1").style.display = "none";
+    document.getElementById("l2").style.display = "none";  
+    document.getElementById("l3").style.display = "flex";    
+    document.getElementById("l4").style.display = "none";   
+    }
+    document.getElementById("r4").addEventListener("mouseover", mouseOver4);
+    function mouseOver4() {
+    document.getElementById("r1").style.opacity = "0.5";
+    document.getElementById("r2").style.opacity = "0.5";
+    document.getElementById("r3").style.opacity = "0.5";
+    document.getElementById("r4").style.opacity = "1";
+    document.getElementById("l1").style.display = "none";
+    document.getElementById("l2").style.display = "none";  
+    document.getElementById("l3").style.display = "none";    
+    document.getElementById("l4").style.display = "flex";   
+    }
   } else {
     document.getElementById("icon_arrow").style.display = "flex";
   }
@@ -31,6 +79,5 @@ window.addEventListener("scroll", myScrollFunc);
 
 // Opacity //
 
-document.getElementById("three").style.opacity = "0.6";
 
 
