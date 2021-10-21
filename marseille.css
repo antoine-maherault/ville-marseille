@@ -561,18 +561,18 @@ opacity : 50%;
 
 }
 
-.txt1{
+#txt1{
   display: flex;
 }
 
-.txt2{
+#txt2{
   display: none;
 }
 
-.txt3{
+#txt3{
   display: none;
 }
 
-.txt4{
+#txt4{
   display: none;
 }

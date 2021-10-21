@@ -30,7 +30,11 @@ var myScrollFunc = function () {
     document.getElementById("l1").style.display = "flex";
     document.getElementById("l2").style.display = "none";  
     document.getElementById("l3").style.display = "none";    
-    document.getElementById("l4").style.display = "none";    
+    document.getElementById("l4").style.display = "none";  
+    document.getElementById("txt1").style.display = "flex";
+    document.getElementById("txt2").style.display = "none";  
+    document.getElementById("txt3").style.display = "none";    
+    document.getElementById("txt4").style.display = "none";      
     }
 
     document.getElementById("r2").addEventListener("mouseover", mouseOver2);
@@ -42,7 +46,11 @@ var myScrollFunc = function () {
     document.getElementById("l1").style.display = "none";
     document.getElementById("l2").style.display = "flex";  
     document.getElementById("l3").style.display = "none";    
-    document.getElementById("l4").style.display = "none";    
+    document.getElementById("l4").style.display = "none";  
+    document.getElementById("txt1").style.display = "none";
+    document.getElementById("txt2").style.display = "flex";  
+    document.getElementById("txt3").style.display = "none";    
+    document.getElementById("txt4").style.display = "none";       
    }
 
     document.getElementById("r3").addEventListener("mouseover", mouseOver3);
@@ -55,6 +63,10 @@ var myScrollFunc = function () {
     document.getElementById("l2").style.display = "none";  
     document.getElementById("l3").style.display = "flex";    
     document.getElementById("l4").style.display = "none";   
+    document.getElementById("txt1").style.display = "none";
+    document.getElementById("txt2").style.display = "none";  
+    document.getElementById("txt3").style.display = "flex";    
+    document.getElementById("txt4").style.display = "none";     
     }
     document.getElementById("r4").addEventListener("mouseover", mouseOver4);
     function mouseOver4() {
@@ -66,6 +78,10 @@ var myScrollFunc = function () {
     document.getElementById("l2").style.display = "none";  
     document.getElementById("l3").style.display = "none";    
     document.getElementById("l4").style.display = "flex";   
+    document.getElementById("txt1").style.display = "none";
+    document.getElementById("txt2").style.display = "none";  
+    document.getElementById("txt3").style.display = "none";    
+    document.getElementById("txt4").style.display = "flex";     
     }
   } else {
     document.getElementById("icon_arrow").style.display = "flex";
