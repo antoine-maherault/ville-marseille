@@ -11,32 +11,89 @@ function myFunction() {
   }
 }
 
+// SCROLL //
 
-// Slideshow //
+myID = document.getElementById("icon_arrow");
 
-var slideIndex = 1;
-showSlides(slideIndex);
+var myScrollFunc = function () {
+  var y = window.scrollY;
+  if (y >= 700) {
+    document.getElementById("icon_arrow").style.display = "none";    
+    
+    document.getElementById("r1").addEventListener("mouseover", mouseOver);
+     function mouseOver() {
+    document.getElementById("r1").style.opacity = "1";
+    document.getElementById("r2").style.opacity = "0.5";
+    document.getElementById("r3").style.opacity = "0.5";
+    document.getElementById("r4").style.opacity = "0.5";    
+    document.getElementById("r4").style.opacity = "0.5";    
+    document.getElementById("l1").style.display = "flex";
+    document.getElementById("l2").style.display = "none";  
+    document.getElementById("l3").style.display = "none";    
+    document.getElementById("l4").style.display = "none";  
+    document.getElementById("txt1").style.display = "flex";
+    document.getElementById("txt2").style.display = "none";  
+    document.getElementById("txt3").style.display = "none";    
+    document.getElementById("txt4").style.display = "none";      
+    }
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+    document.getElementById("r2").addEventListener("mouseover", mouseOver2);
+    function mouseOver2() {
+    document.getElementById("r1").style.opacity = "0.5";
+    document.getElementById("r2").style.opacity = "1";
+    document.getElementById("r3").style.opacity = "0;5";
+    document.getElementById("r4").style.opacity = "0.5";  
+    document.getElementById("l1").style.display = "none";
+    document.getElementById("l2").style.display = "flex";  
+    document.getElementById("l3").style.display = "none";    
+    document.getElementById("l4").style.display = "none";  
+    document.getElementById("txt1").style.display = "none";
+    document.getElementById("txt2").style.display = "flex";  
+    document.getElementById("txt3").style.display = "none";    
+    document.getElementById("txt4").style.display = "none";       
+   }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+    document.getElementById("r3").addEventListener("mouseover", mouseOver3);
+    function mouseOver3() {
+    document.getElementById("r1").style.opacity = "0.5";
+    document.getElementById("r2").style.opacity = "0.5";
+    document.getElementById("r3").style.opacity = "1";
+    document.getElementById("r4").style.opacity = "0.5";
+    document.getElementById("l1").style.display = "none";
+    document.getElementById("l2").style.display = "none";  
+    document.getElementById("l3").style.display = "flex";    
+    document.getElementById("l4").style.display = "none";   
+    document.getElementById("txt1").style.display = "none";
+    document.getElementById("txt2").style.display = "none";  
+    document.getElementById("txt3").style.display = "flex";    
+    document.getElementById("txt4").style.display = "none";     
+    }
+    document.getElementById("r4").addEventListener("mouseover", mouseOver4);
+    function mouseOver4() {
+    document.getElementById("r1").style.opacity = "0.5";
+    document.getElementById("r2").style.opacity = "0.5";
+    document.getElementById("r3").style.opacity = "0.5";
+    document.getElementById("r4").style.opacity = "1";
+    document.getElementById("l1").style.display = "none";
+    document.getElementById("l2").style.display = "none";  
+    document.getElementById("l3").style.display = "none";    
+    document.getElementById("l4").style.display = "flex";   
+    document.getElementById("txt1").style.display = "none";
+    document.getElementById("txt2").style.display = "none";  
+    document.getElementById("txt3").style.display = "none";    
+    document.getElementById("txt4").style.display = "flex";     
+    }
+  } else {
+    document.getElementById("icon_arrow").style.display = "flex";
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
+};
+
+window.addEventListener("scroll", myScrollFunc);
+
+
+// ________________ News ________________ //
+
+// Opacity //
+
+
+

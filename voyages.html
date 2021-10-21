@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="marseille.css">
-  <script src="scripts.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
@@ -16,13 +16,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/alex-brush" type="text/css" />
   <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
-
-  <script>
-    function myFunction2() { 
-      document.getElementById("icon_arrow").style.display="none"; 
-    }
-    </script>
-
 </head>
 
 <body>
@@ -32,7 +25,7 @@
   <header>
     <div class="header_container">
       <div class="logo_container">
-        <img class="logo" id="logo" src="content/logo.png"></img>
+        <img class="logo" id="logo" src="content/logo.png">
       </div>
       <div class="nav_container">
         <div class="topnav" id="myTopnav">
@@ -56,30 +49,31 @@
           <div>
             <a class="menu" href="voyages/marseille4.html">Contact</a>
           </div>
-          <div> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a> </div>
+          <div> <a href="javascript:void(0);" onclick="myFunction()" class="icon"> <i class="fa fa-bars"></i></a> </div>
         </div>
       </div>
   </header>
 
-    <div id="ham" class="ham_container">
-      <div class="ham">
-        <a href="voyages.html">Accueil</a>
-        <a href="voyages/marseille1.html">Histoire</a>
-        <a href="voyages/marseille2.html">Sorties</a>
-        <div class="submenu">
-          <a href="voyages/marseille2.1.html">&nbsp Parcs</a>
-          <a href="voyages/marseille2.2.html">&nbsp Randonnées</a>
-          <a href="voyages/marseille2.3.html">&nbsp Plages</a>
-        </div>
-        <a href="voyages/marseille3.html">Musées</a>
-        <a href="voyages/marseille4.html">Contact</a>
+  <div id="ham" class="ham_container">
+    <div class="ham">
+      <a href="voyages.html">Accueil</a>
+      <a href="voyages/marseille1.html">Histoire</a>
+      <a href="voyages/marseille2.html">Sorties</a>
+      <div class="submenu">
+        <a href="voyages/marseille2.1.html">&nbsp Parcs</a>
+        <a href="voyages/marseille2.2.html">&nbsp Randonnées</a>
+        <a href="voyages/marseille2.3.html">&nbsp Plages</a>
       </div>
+      <a href="voyages/marseille3.html">Musées</a>
+      <a href="voyages/marseille4.html">Contact</a>
     </div>
+  </div>
 
   <!-- //___________________________ END ___________________________// !-->
 
   <main>
-    <div id="icon_arrow" class= "square"><a href="#shape1" onclick="myFunction2()"><i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i></a>
+    <div id="icon_arrow" class="square"><a href="#shape2"><i
+          class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i></a>
     </div>
 
     <div class="video-container">
@@ -89,12 +83,36 @@
     </div>
 
     <div class="info-container">
-      <div id="shape1">
-
-      
+      <div id="shape2" class="shape_news">
+        <div class="news_1">
+          <div class="news_1_left">
+            <img id="l1" class="left_img1" src="content/news1.webp"> 
+            <img id="l2" class="left_img2" src="content/news2.webp">
+            <img id="l3" class="left_img3" src="content/news3.webp">
+            <img id="l4" class="left_img4" src="content/news4.webp">
+          </div>
+          <div class="news_1_right">
+            <img id="r1" class="right_img1" src="content/news1.webp"> 
+            <img id="r2" class="right_img2" src="content/news2.webp">
+            <img id="r3" class="right_img3" src="content/news3.webp">
+            <img id="r4" class="right_img4" src="content/news4.webp">
+          </div>
+        </div>
+        <div class="news_2">
+          <div id="txt1"> 
+          <h1>Lazio-OM : la composition probable de la formation laziale</h1></div>
+          <div id="txt2"> 
+          <h1 >Brigitte Macron en déplacement aujourd'hui à Marseille</h1></div>
+          <div id="txt3"> 
+            <h1 >Marseille : le tramway des collines pour désenclaver le Nord et l'Est ? </h1></div>
+          <div id="txt4"> 
+          <h1 >Marseille : un partenariat Pôle emploi-Restos du coeur</h1></div>
+        </div>
       </div>
     </div>
+
   </main>
+
 
   <!-- //___________________________ FOOTER ___________________________// !-->
 
