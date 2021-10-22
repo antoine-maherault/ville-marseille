@@ -418,6 +418,7 @@ footer {
 /*////////// **************** RANDONNEES **************** //////////*/
 
 body{
+  background-color: blueviolet;
    display: flex;
    justify-content: center;
    text-align: center;
@@ -434,6 +435,7 @@ body{
 
 }
 
+<<<<<<< Updated upstream
 .container-rando{
   border-radius: 8px;
   padding-top: 20px;
@@ -447,18 +449,52 @@ body{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
   height: auto;
   flex-wrap: wrap;
+=======
+.container{
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 90%;
+  margin: auto;
+}
+
+.img{
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  width: 30%;
+
+
+>>>>>>> Stashed changes
 }
 
 .para{
+  background-color: red;
   display: flex;
   text-align: center;
   border-radius: 8px;
   justify-content: center;
+<<<<<<< Updated upstream
   width: 30%;
+=======
+  width: 20%;
+>>>>>>> Stashed changes
   margin: auto;
   padding-bottom: 40px;
 }
 .picture{
+<<<<<<< Updated upstream
+=======
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  height: 300px;
+>>>>>>> Stashed changes
   border-radius: 8px;
   filter: drop-shadow(0 0 0.90rem gray);
   object-fit: fixed;
@@ -467,6 +503,7 @@ body{
 
 }
 
+<<<<<<< Updated upstream
 .items{
   display: flex;
   flex-direction: column;
@@ -494,6 +531,21 @@ h2{
   margin-right: 20px;
   margin-left: 20px;
 }
+=======
+.box{
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  border-radius: 8px;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+>>>>>>> Stashed changes
 
 .hide {
   border: solid 0.5px;
@@ -503,12 +555,65 @@ h2{
 
 }
 
+<<<<<<< Updated upstream
 .bul:hover + .hide {
   display: block;
   color: black;
 
 
 
+=======
+h2{
+  background-color: orange;
+  justify-content: flex-start;
+  display: flex;
+  text-align: left;
+  width: %;
+  margin-left: 40px;
+
+}
+
+section{
+  background-color: orange;
+
+}
+
+.info{
+  background-color: deeppink;
+  width:100px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.logoInfo{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+.hide {
+  display: none;
+  border: solid;
+  padding:10px;
+  border-radius: 12px;
+
+}
+
+.bul:hover + .hide {
+  diplay: flex;
+  flex-direction: row;
+  color: red;
+}
+.align{
+  diplay: flex;
+  flex-direction: row;
+>>>>>>> Stashed changes
 }
 .align{
   display: flex;
