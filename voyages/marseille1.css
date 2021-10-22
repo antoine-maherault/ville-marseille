@@ -215,7 +215,7 @@ font-size: 25px;
 
 .background{
   background-image: url("https://en.geneanet.org/public/img/gallery/pictures/cartes_postales/f9/28957/large.jpg");
-  background-size : 100%;
+  background-size : cover;
   height: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -225,7 +225,7 @@ font-size: 25px;
 
 .contact_background{
   background-image: url("content/background.jpeg");
-  background-size : 1450px;
+  background-size : cover;
   height: 150px;
   background-position : 0 -55px;
   background-repeat: no-repeat;
@@ -552,15 +552,12 @@ footer {
 .p_txt_visit{
 	position: absolute;
 	z-index: 1;
-<<<<<<< Updated upstream
 	left: 30px;
 	background-color: green;
-=======
 	left: -18%;
 	background-color: #ecdfdf;
 	padding: 20px;
 	width: 40%;
 	box-shadow: rgb(3 44 78 / 25%) 5px 5px 10px, rgb(3 44 78 / 30%) 0px 5px 7px -5px;
 	font-family: montserrat;
->>>>>>> Stashed changes
 }
