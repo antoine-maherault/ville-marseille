@@ -457,11 +457,33 @@ footer {
 
 .p_z-indexed_txt{
 	position: absolute;
+	display: flex;
 	margin-bottom: 7%;
 	z-index: 2;
+	width: 30%;
+	flex-direction: column;
+	align-items	: center;
+	font-family : montserrat;
+	text-align: center;
+	font-size: 18px;
 	background-color: red;
+	gap: 20px;
+	padding: 10px;
 }
 	
+.p_z-indexed_txt a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 40px;
+}
+
+.p_z-indexed_txt a:hover{
+	background-color: white;
+	color: blue;
+	transition: 0.5s;
+}
 .p_carousel_control {
     background: rgba(0, 0, 0, 0.28);
     border-radius: 50%;
