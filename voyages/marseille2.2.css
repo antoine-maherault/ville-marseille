@@ -468,6 +468,10 @@ body{
   justify-content: center;
   padding-bottom: 30px;
   width: 30%;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 
 >>>>>>> Stashed changes
@@ -480,7 +484,11 @@ body{
   border-radius: 8px;
   justify-content: center;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   width: 30%;
+=======
+  width: 20%;
+>>>>>>> Stashed changes
 =======
   width: 20%;
 >>>>>>> Stashed changes
@@ -494,6 +502,9 @@ body{
   justify-content: space-evenly;
   width: 400px;
   height: 300px;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   border-radius: 8px;
   filter: drop-shadow(0 0 0.90rem gray);
@@ -503,6 +514,7 @@ body{
 
 }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 .items{
   display: flex;
@@ -541,10 +553,24 @@ h2{
   padding-bottom: 60px;
   border-radius: 8px;
 }
+=======
+.box{
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  border-radius: 8px;
+}
+>>>>>>> Stashed changes
 
 .shadow{
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 .hide {
@@ -576,6 +602,46 @@ h2{
 section{
   background-color: orange;
 
+<<<<<<< Updated upstream
+=======
+}
+
+.info{
+  background-color: deeppink;
+  width:100px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.logoInfo{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+.hide {
+  display: none;
+  border: solid;
+  padding:10px;
+  border-radius: 12px;
+
+}
+
+.bul:hover + .hide {
+  diplay: flex;
+  flex-direction: row;
+  color: red;
+}
+.align{
+  diplay: flex;
+  flex-direction: row;
+>>>>>>> Stashed changes
 }
 
 .info{
