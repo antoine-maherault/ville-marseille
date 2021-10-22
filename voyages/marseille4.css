@@ -420,7 +420,7 @@ footer {
 
 .contact_background{
   background-image: url("../content/background.jpeg");
-  background-size : 180vh;
+  background-size : cover;
   height: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
