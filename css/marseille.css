@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf') format('truetype'); 
+  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf') format('truetype'); 
 }  
 
 /*////////// Apply everywhere //////////*/
