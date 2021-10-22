@@ -41,6 +41,7 @@
   height : 70px;
 }
 
+
 /*//____ Style the topnav ____ //*/
 
 /* Style the top navigation bar */
@@ -88,16 +89,14 @@
   background: #fff;
   transition: 0.5s transform ease;
   transform: scale3d(0,1,1);
-  transform-origin: 0 50%;
+  background:#38B6FF;
+  transform-origin: 100% 50%;
 }
 
 .topnav .menu:hover::before{
   transform: scale3d(1,1,1);
 }
-.topnav .menu::before {
-  background:#38B6FF;
-  transform-origin: 100% 50%;
-}
+
 .topnav .menu:hover::before{
   transform-origin: 0 50%;
 }
@@ -215,9 +214,9 @@ font-size: 25px;}
 /*////////// Style the background //////////*/
 
 .background{
-  background-image: url("../content/background.jpeg");
-  background-size : 100%;
-  height: 150px;
+  background-image: url("content/background.jpeg");
+  background-size : 1450px;
+  height: 430px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position :center;
@@ -255,9 +254,10 @@ font-size: 25px;}
 
 /*///////// Style video /////////*/
 
-.video-container{
-  height: 10px;
+.video-container {
+  height: 800px;
   width:  100%;
+  z-index: -1;
 }
 
 .video-container video {
@@ -296,6 +296,7 @@ iframe{
 }
 
 /*////////// Style the footer //////////*/
+
 
 footer {
   background-color:#26272b;
@@ -415,4 +416,222 @@ footer {
   margin-bottom : 5px;
 }
 
-/*////////// **************** SORTIES **************** //////////*/
+/*////////// **************** ACCUEIL **************** //////////*/
+
+/* Scroll Arrow */
+
+.square {
+  height : 50px;
+  width : 50px;
+  z-index:2;
+  margin-left : 50%;
+  animation: blinker 2s linear infinite;
+  bottom : 0;
+  position: fixed;
+  margin-bottom :20px; 
+}
+
+.fa-angle-double-down{
+  color : white;
+  font-size : 40px;
+  margin-left:-10px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+html{
+  scroll-behavior : smooth;
+}
+
+/* ____________News____________ */
+
+/* Structure */
+
+.shape_news{
+  height : auto;
+  width : 100%;
+  background-color : white;
+  font-family : montserrat;
+  margin-bottom : 15px;
+  display : flex;
+  flex-direction : column;
+  gap : 10px;
+  justify-content: center;
+}
+
+.news_title{
+  color:white;
+  font-size: 30px;
+  font-weight: underline;
+  padding-right : 60px;
+}
+
+/* Images D&G */
+
+.news_1{
+  display : flex;
+  flex-direction : row;
+  gap : 10px;
+  background-color: #26272b;
+  justify-content: center;
+  padding-top : 10px;
+  padding-bottom: 10px;
+  width : auto;
+}
+
+.news_1_left{
+  display: flex;
+}
+
+.news_1_left img{
+  width : 900px;
+  height : 500px;
+}
+
+.news_1_right{
+  display : flex;
+  flex-direction : column;
+  gap : 10px;
+}
+
+.news_1_right img{
+  width : auto;
+  height : 117.5px; 
+}
+
+/* Titre article */
+
+.news_2 {
+  display :flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height : 100px;
+  background-color : rgb(243, 234, 234);
+}
+
+.news_2 h1 {
+  display :flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height : 100px;
+  font-size : 25px;
+}
+
+
+
+/* JS_Left_img */
+
+.left_img1{
+  display : flex;
+}
+
+.left_img2{
+  display : none;
+}
+
+.left_img3{
+  display : none;
+}
+
+.left_img4{
+  display : none;
+}
+
+.news_1_right:hover + .news_1_left{
+  display : none;
+}
+
+/* JS_Right_img */
+
+.right_img1{
+  opacity : 100%;
+}
+
+.right_img2{
+opacity : 50%;
+}
+
+.right_img3{
+  opacity : 50%;
+}
+
+.right_img4{
+  opacity : 50%;
+}
+
+/* JS_txt */
+
+#txt1{
+  display: flex;
+}
+
+#txt2{
+  display: none;
+}
+
+#txt3{
+  display: none;
+}
+
+#txt4{
+  display: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+  .news_1{
+    display : flex;
+    flex-direction : column;
+    gap : 10px;
+    background-color: #26272b;
+    justify-content: center;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    width : auto;
+  }
+
+  .news_1_left{
+    justify-content: center;
+    height : auto;
+  }
+
+  .news_1_left img{
+    width : 100%;
+    height : auto;
+  }
+
+  .news_1_right{
+    justify-content: center;
+    height : auto;
+    flex-direction: row;
+    width : 90%;
+  }
+
+  .news_1_right img{
+    height : auto;
+    width:25%;
+  }
+
+  .news_2 h1 {
+    font-size : 20px;
+  }
+
+  .news_title{
+    color:white;
+    font-size: 30px;
+    padding-right : 0px;
+  }
+  }
+
+
+
