@@ -17,7 +17,7 @@
 
 /* main content page */
 
-.p_main_content{
+.p_main_content{	
 	display:  flex;
 	flex-direction: column;
 	align-items:  center;
@@ -108,8 +108,8 @@
 .p_slider_window {
 	position: relative;
 	width: 70%;
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-top: 4%;
+	margin-bottom: 1.7%;
 }
 
 .p_slider .p_slider_b img {
@@ -149,12 +149,12 @@
 .p_txt_visit{
 	position: absolute;
 	z-index: 1;
-	left: 30px;
-	top: -10px;
+	left: 2vw;
+	top: -2vw;
 	background-color: rgb(243, 234, 234);
 	left: -18%;
 	background-color: #ecdfdf;
-	padding: 20px;
+	padding: 3%;
 	width: 40%;
 	box-shadow: rgb(3 44 78 / 25%) 5px 5px 10px, rgb(3 44 78 / 30%) 0px 5px 7px -5px;
 	font-family: montserrat;
