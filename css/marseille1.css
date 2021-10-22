@@ -1,7 +1,8 @@
 /*////////// **************** HISTOIRE **************** //////////*/
 
 .p_main{
-	margin-bottom: 17%;
+	padding-bottom: 300px;
+	background-color: rgb(243, 234, 234);	
 }
 
 .histoire_background{
@@ -108,7 +109,7 @@
 	position: relative;
 	width: 70%;
 	margin-top: 30px;
-	margin-bottom: 320px;
+	margin-bottom: 20px;
 }
 
 .p_slider .p_slider_b img {
@@ -120,7 +121,7 @@
 .p_slider {
 	position: absolute;
 	left: 20%;
-	overflow: hidden ;
+	overflow: hidden;
 }
   
 @keyframes slider {
