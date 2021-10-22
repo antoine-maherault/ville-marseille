@@ -147,7 +147,7 @@
 }
 
 .carousel-bullet:hover {
-    color: #aaaaaa;
+    color: #b8e5ff;
 }
 
 #p_carousel_1:checked ~ .control-1 ~ .p_carousel_ind li:nth-child(1) .carousel-bullet,
@@ -155,5 +155,5 @@
 #p_carousel_3:checked ~ .control-3 ~ .p_carousel_ind li:nth-child(3) .carousel-bullet,
 #p_carousel_4:checked ~ .control-4 ~ .p_carousel_ind li:nth-child(4) .carousel-bullet,
 #p_carousel_5:checked ~ .control-5 ~ .p_carousel_ind li:nth-child(5) .carousel-bullet {
-	color: #428bca;
+	color: #38B6FF;
 }
