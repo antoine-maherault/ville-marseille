@@ -214,7 +214,7 @@ font-size: 25px;}
 
 .background{
   background-image: url("../content/plages-background2.png");
-  background-size : 1450px;
+  background-size : cover;
   height: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf') format('truetype');
-}
+  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf') format('truetype'); 
+}  
 
 /*////////// Apply everywhere //////////*/
 
@@ -15,7 +15,7 @@
 /*//////////   Style the header  //////////*/
 
 .header_container{
-  display : flex ;
+  display : flex ;  
   flex-direction : column;
   align-items: center;
   justify-content: center;
@@ -58,14 +58,14 @@
 
 /* Style the topnav links */
 .topnav a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: bolder;
   color: black;
   text-align: center;
   padding: 10px 13px;
   font-size : 26px;
   text-decoration: none;
-  transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;  
 }
 
 .topnav .online{
@@ -121,6 +121,7 @@
   background:#38B6FF;
   transform: scale3d(0.7,1,1);
 }
+
 /* Dropdown */
 
 .dropdown-content {
@@ -130,7 +131,7 @@
   position : absolute;
   display : none;
   flex-direction: column;
-  padding-top : 21.5px;
+  padding-top : 21.5px;  
 }
 
 .dropdown-content a{
@@ -169,7 +170,7 @@
   .ham_container.responsive {
     display : flex  !important;
     flex-direction :row;
-    justify-content: flex-end;
+    justify-content: flex-end; 
   }
 }
 
@@ -203,7 +204,7 @@
   font-size : 28px;
   text-decoration: none;
   border-top: 1px solid transparent;
-  transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;  
 }
 
 .submenu a{
@@ -213,8 +214,8 @@ font-size: 25px;}
 /*////////// Style the background //////////*/
 
 .background{
-  background-image: url("../content/background-rando.png");
-  background-size : 1450px;
+  background-image: url("../content/background-parc.jpg");
+  background-size : cover;
   height: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -224,7 +225,7 @@ font-size: 25px;}
 
 .contact_background{
   background-image: url("content/background.jpeg");
-  background-size : 1450px;;
+  background-size : 100%;
   height: 150px;
   background-position : 0 -55px;
   background-repeat: no-repeat;
@@ -249,7 +250,6 @@ font-size: 25px;}
   background-color : rgb(243, 234, 234);
   font-family : montserrat;
   margin-bottom : 15px;
-  padding-bottom: 30px;
 }
 
 /*///////// Style video /////////*/
@@ -288,9 +288,9 @@ iframe:hover{
 }
 
 iframe{
-  transition:all 0.5s linear;
-  -o-transition:all 0.5s linear;
-  -moz-transition:all 0.5s linear;
+  transition:all 0.5s linear; 
+  -o-transition:all 0.5s linear; 
+  -moz-transition:all 0.5s linear; 
   -webkit-transition:all 0.5s linear;
 }
 
@@ -326,7 +326,7 @@ footer {
   padding-left : 40px;
   width : 200px;
   }
-
+  
 /* Sitemap */
 
 .sitemap{
@@ -334,7 +334,7 @@ footer {
   flex-direction : row;
   gap : 30px;
   align-items: center;
-  text-align : center;
+  text-align : center;  
   justify-content : center;
   /* background-color: red; */
   width : 70%;
@@ -345,7 +345,7 @@ footer {
   font-family : Helvetica;
   color : white;
   font-weight: bold;
-  transition: all ease-in-out 350ms;
+  transition: all ease-in-out 350ms;  
 
 }
 
@@ -368,7 +368,7 @@ footer {
   width : 15%;
   font-size : 25px;
   align-items: center;
-  text-align : center;
+  text-align : center;  
   justify-content : flex-end;
   gap : 15px;
   padding-right : 40px;
@@ -415,95 +415,81 @@ footer {
 }
 
 /*////////// **************** SORTIES **************** //////////*/
-/*////////// **************** RANDONNEES **************** //////////*/
-
 body{
    display: flex;
    justify-content: center;
    text-align: center;
    flex-direction: column;
    padding-bottom: 30px;
+
+}
+
+.pad-bot{
+  padding-bottom: 60px;
 }
 
 .titre{
   color: rgba(3, 44, 78);
+  height: 160px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   font-size: 40px;
   border-radius: 40px;
-
 }
 
-.container-rando{
-  border-radius: 8px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 90%;
-  margin: auto;
+.container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  column-gap: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
-  height: auto;
-  flex-wrap: wrap;
+  row-gap: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.img{
+  width: 50%%;
 }
 
 .para{
+  width: 50%;
   display: flex;
+  flex-direction: column;
   text-align: center;
   border-radius: 8px;
   justify-content: center;
-  width: 30%;
-  margin: auto;
-  padding-bottom: 40px;
 }
-
 .picture{
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  height: 400px;
   border-radius: 8px;
   filter: drop-shadow(0 0 0.90rem gray);
-  object-fit: fixed;
-  width: 500px;
-  height: 350px;
 }
 
-.items{
+.box{
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
   padding-top: 30px;
+  padding-bottom: 30px;
   border-radius: 8px;
-  width: 25%;
+
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+/*  box-shadow: rgba(3, 44, 78,  0.17) 0px -23px 25px 0px inset, rgba(3, 44, 78,  0.15) 0px -36px 30px 0px inset, rgba(3, 44, 78,  0.1) 0px -79px 40px 0px inset, rgba(3, 44, 78,  0.06) 0px 2px 1px, rgba(3, 44, 78,  0.09) 0px 4px 2px, rgba(3, 44, 78, 0.09) 0px 8px 4px, rgba(3, 44, 78,  0.09) 0px 16px 8px, rgba(3, 44, 78,  0.09) 0px 32px 16px;
+*/}
+
+.moon{
+
+  box-shadow: rgba(3, 44, 78, 0.25) 0px 5px 10px -5px, rgba(3, 44, 78, 0.3) 0px 5px 7px -5px;
 }
 
 h2{
-  justify-content: flex-start;
-  display: flex;
-  text-align: left;
-  margin-left: 72px;
-  margin-right: 72px;
-  padding-top: 40px;
-}
-
-.logoInfo{
-  width: 50px;
-  height: 50px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.hide {
-  border: solid 0.5px;
-  padding:10px;
-  border-radius: 12px;
-  width: 220px;
-}
-
-.bul:hover + .hide {
-  display: block;
-  color: black;
-}
-
-.align{
-  display: flex;
+  padding-bottom: 20px;
+  padding-top: -20px;
 }
