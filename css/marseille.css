@@ -514,18 +514,38 @@ opacity : 50%;
 
 #txt1{
   display: flex;
+  background-color:white;
+  height : 70px;
+  width : 1000px;
+  justify-content : center;
+  align-items :center;
 }
 
 #txt2{
   display: none;
+  background-color:white;
+  height : 70px;
+  width : 1000px;
+  justify-content : center;
+  align-items :center;
 }
 
 #txt3{
   display: none;
+  background-color:white;
+  height : 70px;
+  width : 1000px;
+  justify-content : center;
+  align-items :center;
 }
 
 #txt4{
   display: none;
+  background-color:white;
+  height : 70px;
+  width : 1000px;
+  justify-content : center;
+  align-items :center;
 }
 
 /* Responsive */
