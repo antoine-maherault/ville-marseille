@@ -214,8 +214,8 @@ font-size: 25px;}
 /*////////// Style the background //////////*/
 
 .background{
-  background-image: url("../content/background.jpeg");
-  background-size : 100%;
+  background-image: url("../content/background-sorties.png");
+  background-size : cover;
   height: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -245,7 +245,7 @@ font-size: 25px;}
 }
 
 #shape1{
-  height : 600px;
+
   width : 100%;
   background-color : rgb(243, 234, 234);
   font-family : montserrat;
@@ -288,9 +288,9 @@ iframe:hover{
 }
 
 iframe{
-  transition:all 0.5s linear; 
-  -o-transition:all 0.5s linear; 
-  -moz-transition:all 0.5s linear; 
+  transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  -moz-transition:all 0.5s linear;
   -webkit-transition:all 0.5s linear;
 }
 
@@ -326,7 +326,7 @@ footer {
   padding-left : 40px;
   width : 200px;
   }
-  
+
 /* Sitemap */
 
 .sitemap{
@@ -334,7 +334,7 @@ footer {
   flex-direction : row;
   gap : 30px;
   align-items: center;
-  text-align : center;  
+  text-align : center;
   justify-content : center;
   /* background-color: red; */
   width : 70%;
@@ -345,7 +345,7 @@ footer {
   font-family : Helvetica;
   color : white;
   font-weight: bold;
-  transition: all ease-in-out 350ms;  
+  transition: all ease-in-out 350ms;
 
 }
 
@@ -368,7 +368,7 @@ footer {
   width : 15%;
   font-size : 25px;
   align-items: center;
-  text-align : center;  
+  text-align : center;
   justify-content : flex-end;
   gap : 15px;
   padding-right : 40px;
@@ -415,3 +415,95 @@ footer {
 }
 
 /*////////// **************** SORTIES **************** //////////*/
+body{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   padding-bottom: 30px;
+
+}
+
+
+
+.titre{
+  color: rgba(3, 44, 78);
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  border-radius: 40px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+
+.para{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  text-align: left;
+
+}
+.picture{
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: 150px;
+  border-radius: 8px;
+  filter: drop-shadow(0 0 0.90rem gray);
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  height: 600px;
+
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+/*  box-shadow: rgba(3, 44, 78,  0.17) 0px -23px 25px 0px inset, rgba(3, 44, 78,  0.15) 0px -36px 30px 0px inset, rgba(3, 44, 78,  0.1) 0px -79px 40px 0px inset, rgba(3, 44, 78,  0.06) 0px 2px 1px, rgba(3, 44, 78,  0.09) 0px 4px 2px, rgba(3, 44, 78, 0.09) 0px 8px 4px, rgba(3, 44, 78,  0.09) 0px 16px 8px, rgba(3, 44, 78,  0.09) 0px 32px 16px;
+*/}
+
+.moon{
+
+  box-shadow: rgba(3, 44, 78, 0.25) 0px 5px 10px -5px, rgba(3, 44, 78, 0.3) 0px 5px 7px -5px;
+}
+
+h2{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: -20px;
+}
+
+a{
+  text-decoration: none;
+  color: darkblue;
+}
+
+.liParcs{
+  list-style-type: '🌳';
+}
+
+.liRandos{
+  list-style-type: '⛰';
+}
+
+.liPlages{
+  list-style-type: '🏖';
+}

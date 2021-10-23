@@ -485,6 +485,7 @@ h2{
   margin-left: 72px;
   margin-right: 72px;
   padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 .logoInfo{
@@ -508,4 +509,7 @@ h2{
 
 .align{
   display: flex;
+}
+p{
+  font-size: 25px;
 }
