@@ -459,6 +459,7 @@ body{
   width: 30%;
   margin: auto;
   padding-bottom: 40px;
+  height: 320px;
 }
 
 .picture{
@@ -510,6 +511,11 @@ h2{
 .align{
   display: flex;
 }
+
 p{
   font-size: 25px;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }

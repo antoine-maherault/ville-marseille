@@ -470,7 +470,7 @@ body{
   align-items: center;
   border-radius: 8px;
   height: 600px;
-
+  width: 320px;
 }
 
 .shadow{
@@ -486,7 +486,7 @@ body{
 h2{
   padding-top: 30px;
   display: flex;
-  justify-content: center;
+
   padding-bottom: 20px;
   padding-top: -20px;
 }
@@ -496,14 +496,6 @@ a{
   color: darkblue;
 }
 
-.liParcs{
-  list-style-type: '🌳';
-}
-
-.liRandos{
-  list-style-type: '⛰';
-}
-
-.liPlages{
-  list-style-type: '🏖';
+.liSorties{
+  list-style-type: '_';
 }
