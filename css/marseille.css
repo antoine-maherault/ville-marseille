@@ -43,6 +43,7 @@
 /*//____ Style the topnav ____ //*/
 
 /* Style the top navigation bar */
+
 .topnav {
   overflow: hidden;
   background-color: white;
@@ -293,7 +294,6 @@ footer {
   color : white;
   font-weight: bold;
   transition: all ease-in-out 350ms;  
-
 }
 
 .sitemap a:hover {
