@@ -36,6 +36,8 @@
 	box-shadow: rgb(3 44 78 / 25%) 0px 5px 10px -5px, rgb(3 44 78 / 30%) 0px 5px 7px -5px;
 }
 
+/* agrandissement des dates */
+
 .p_article:target .p_txt_main_history_info, .p_txt_main_history_img{
 	max-height: 300px;
 }
@@ -52,7 +54,7 @@
 	overflow: hidden;
 }
 
-/* info origine */
+/* texte général + "origine" */
 
 .p_txt_origin{
 	display: flex;
@@ -91,6 +93,7 @@
 	font-size: 30px;
 }
 
+/* réglages des boutons "en savoir plus" */
 .p_txt_main_history_btn{
 	text-decoration: none;
 	color: black;
@@ -145,6 +148,8 @@
 	animation-iteration-count: infinite;
 	animation-duration: 15s;
 }
+
+/* texte sur le côté du diaporama */
 
 .p_txt_visit{
 	position: absolute;
