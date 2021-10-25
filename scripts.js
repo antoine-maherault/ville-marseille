@@ -11,7 +11,7 @@ function myFunction() {
   }
 }
 
-// SCROLL //
+// SCROLL + DISPLAY EFFECT//
 
 myID = document.getElementById("icon_arrow");
 
@@ -68,6 +68,7 @@ var myScrollFunc = function () {
     document.getElementById("txt3").style.display = "flex";    
     document.getElementById("txt4").style.display = "none";     
     }
+
     document.getElementById("r4").addEventListener("mouseover", mouseOver4);
     function mouseOver4() {
     document.getElementById("r1").style.opacity = "0.5";
@@ -91,9 +92,7 @@ var myScrollFunc = function () {
 window.addEventListener("scroll", myScrollFunc);
 
 
-// ________________ News ________________ //
 
-// Opacity //
 
 
 
