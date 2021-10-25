@@ -351,6 +351,20 @@ footer {
   background: rgb(197, 196, 196);
 }
 
+.fa-github {
+  color: white;
+  background: #8d3b98;
+  width : 30px;
+  height : 30px;
+  text-align : center;
+  padding-top: 3px;
+  transition: all ease-in-out 400ms;
+}
+
+.fa-github:hover {
+  background: rgb(197, 196, 196);
+}
+
 .copyright{
   font-family : Montserrat;
   text-align : center;
