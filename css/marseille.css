@@ -284,7 +284,6 @@ footer {
   align-items: center;
   text-align : center;  
   justify-content : center;
-  /* background-color: red; */
   width : 70%;
 }
 
@@ -311,7 +310,6 @@ footer {
 .social{
   display : flex;
   flex-direction : row;
-  /* background-color: green; */
   width : 15%;
   font-size : 25px;
   align-items: center;
