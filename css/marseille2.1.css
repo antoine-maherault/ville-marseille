@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf') format('truetype'); 
-}  
+  src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf') format('truetype');
+}
 
 /*////////// Apply everywhere //////////*/
 
@@ -15,7 +15,7 @@
 /*//////////   Style the header  //////////*/
 
 .header_container{
-  display : flex ;  
+  display : flex ;
   flex-direction : column;
   align-items: center;
   justify-content: center;
@@ -58,14 +58,14 @@
 
 /* Style the topnav links */
 .topnav a {
-  font-family: 'Open Sans', sans-serif;  
+  font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
   color: black;
   text-align: center;
   padding: 10px 13px;
   font-size : 26px;
   text-decoration: none;
-  transition: all ease-in-out 300ms;  
+  transition: all ease-in-out 300ms;
 }
 
 .topnav .online{
@@ -131,7 +131,7 @@
   position : absolute;
   display : none;
   flex-direction: column;
-  padding-top : 21.5px;  
+  padding-top : 21.5px;
 }
 
 .dropdown-content a{
@@ -170,7 +170,7 @@
   .ham_container.responsive {
     display : flex  !important;
     flex-direction :row;
-    justify-content: flex-end; 
+    justify-content: flex-end;
   }
 }
 
@@ -204,7 +204,7 @@
   font-size : 28px;
   text-decoration: none;
   border-top: 1px solid transparent;
-  transition: all ease-in-out 300ms;  
+  transition: all ease-in-out 300ms;
 }
 
 .submenu a{
@@ -244,7 +244,7 @@ font-size: 25px;}
   margin-bottom : -5px;
 }
 
-#shape1{
+#shapeSorties{
 
   width : 100%;
   background-color : rgb(243, 234, 234);
@@ -288,9 +288,9 @@ iframe:hover{
 }
 
 iframe{
-  transition:all 0.5s linear; 
-  -o-transition:all 0.5s linear; 
-  -moz-transition:all 0.5s linear; 
+  transition:all 0.5s linear;
+  -o-transition:all 0.5s linear;
+  -moz-transition:all 0.5s linear;
   -webkit-transition:all 0.5s linear;
 }
 
@@ -326,7 +326,7 @@ footer {
   padding-left : 40px;
   width : 200px;
   }
-  
+
 /* Sitemap */
 
 .sitemap{
@@ -334,7 +334,7 @@ footer {
   flex-direction : row;
   gap : 30px;
   align-items: center;
-  text-align : center;  
+  text-align : center;
   justify-content : center;
   /* background-color: red; */
   width : 70%;
@@ -345,7 +345,7 @@ footer {
   font-family : Helvetica;
   color : white;
   font-weight: bold;
-  transition: all ease-in-out 350ms;  
+  transition: all ease-in-out 350ms;
 
 }
 
@@ -368,7 +368,7 @@ footer {
   width : 15%;
   font-size : 25px;
   align-items: center;
-  text-align : center;  
+  text-align : center;
   justify-content : flex-end;
   gap : 15px;
   padding-right : 40px;
@@ -481,8 +481,7 @@ body{
 
 .shadow{
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-/*  box-shadow: rgba(3, 44, 78,  0.17) 0px -23px 25px 0px inset, rgba(3, 44, 78,  0.15) 0px -36px 30px 0px inset, rgba(3, 44, 78,  0.1) 0px -79px 40px 0px inset, rgba(3, 44, 78,  0.06) 0px 2px 1px, rgba(3, 44, 78,  0.09) 0px 4px 2px, rgba(3, 44, 78, 0.09) 0px 8px 4px, rgba(3, 44, 78,  0.09) 0px 16px 8px, rgba(3, 44, 78,  0.09) 0px 32px 16px;
-*/}
+}
 
 .moon{
 
